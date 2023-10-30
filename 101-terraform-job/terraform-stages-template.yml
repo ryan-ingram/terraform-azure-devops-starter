@@ -8,7 +8,7 @@ stages:
 - stage: Terraform_${{ parameters.environment }}
   displayName: Terraform ${{ parameters.environmentDisplayName }}
   pool:
-    vmImage: ubuntu-latest
+    vmImage: windows-2019
   jobs:
 
   - job: Terraform
@@ -39,7 +39,7 @@ stages:
 - stage: PostTerraform_${{ parameters.environment }}
   displayName: PostTerraform ${{ parameters.environmentDisplayName }}
   pool:
-    vmImage: ubuntu-latest
+    vmImage: windows-2019
   jobs:
   - job: ReadTerraform
     displayName: Use Terraform outputs

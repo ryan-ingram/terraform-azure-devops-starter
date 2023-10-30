@@ -5,10 +5,10 @@ parameters:
   TerraformDirectory:
   TerraformBackendServiceConnection: Terraform
   TerraformEnvironmentServiceConnection: Terraform
-  TerraformBackendResourceGroup: terraform
-  TerraformBackendStorageAccount: terraformstarterstate
-  TerraformBackendStorageContainer: terraformstate
-  TerraformBackendLocation: North Europe
+  TerraformBackendResourceGroup: RG-SANDBOX-CB-TFSTATE
+  TerraformBackendStorageAccount: satfsryantest
+  TerraformBackendStorageContainer: ryantest
+  TerraformBackendLocation: Australia East
 
 steps:
 
